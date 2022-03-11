@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+<!--========== ITEMS ==========-->
+
   <!-- Muffalo milk -->
   
   <Operation Class="PatchOperationAdd">
@@ -13,8 +15,9 @@
       </li>
     </value>
   </Operation>
-<!--================================================================================================================-->
 
+<!--========== BUILDINGS ==========-->
+  
   <!-- Reusable trap -->
   
   <Operation Class="PatchOperationReplace">
@@ -24,4 +27,28 @@
     </value>
   </Operation>
 
+<!--========== TRADERS ==========-->
+  
+  <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+    <value>
+    <li>ISA_Caravan_EssentialsSupplier</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+    <value>
+    <li>ISA_Caravan_MineralsTrader</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
+    <value>
+    <li>ISA_Caravan_GrocerySupplier</li>
+    </value>
+  </Operation>
+  
 </Patch>
