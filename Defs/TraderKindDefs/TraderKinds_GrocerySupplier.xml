@@ -60,8 +60,8 @@
     <!-- Orbital -->
     
   <TraderKindDef>
-    <defName>ISA_Orbital_EssentialsSupplier</defName>
-    <label>essentials supplier</label>
+    <defName>ISA_Caravan_GrocerySupplier</defName>
+    <label>grocery supplier</label>
     <orbital>true</orbital>
     <stockGenerators>
         
