@@ -53,6 +53,12 @@
         <thingDef>Uranium</thingDef>
         <countRange>200~550</countRange>
       </li>
+        
+      <li Class="StockGenerator_Category">
+        <categoryDef>StoneBlocks</categoryDef>
+        <thingDefCountRange>5~5</thingDefCountRange>
+        <totalPriceRange>220~500</totalPriceRange>
+      </li>
       
       <!-- Buying -->
       
