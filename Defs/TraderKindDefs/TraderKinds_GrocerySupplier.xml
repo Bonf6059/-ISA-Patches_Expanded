@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- Caravan -->
+    
+<TraderKindDef>
+    <defName>ISA_Caravan_GrocerySupplier</defName>
+    <label>grocery supplier</label>
+    <stockGenerators>
+        
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>3500~5000</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>15~20</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineIndustrial</thingDef>
+        <countRange>10~20</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chocolate</thingDef>
+        <countRange>-5~50</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <countRange>-3~60</countRange>
+      </li>
+      
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+        </excludedCategories>
+        <thingDefCountRange>8~10</thingDefCountRange>
+        <totalPriceRange>250~800</totalPriceRange>
+      </li>
+      
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <thingDefCountRange>3~3</thingDefCountRange>
+        <totalPriceRange>10~25</totalPriceRange>
+      </li>
+      
+      <!-- Buying -->
+      
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+    
+    <!-- Orbital -->
+    
+  <TraderKindDef>
+    <defName>ISA_Orbital_EssentialsSupplier</defName>
+    <label>essentials supplier</label>
+    <orbital>true</orbital>
+    <stockGenerators>
+        
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>3500~5000</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineHerbal</thingDef>
+        <countRange>15~20</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineIndustrial</thingDef>
+        <countRange>10~20</countRange>
+      </li>
+
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chocolate</thingDef>
+        <countRange>-5~50</countRange>
+      </li>
+      
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Beer</thingDef>
+        <countRange>-3~60</countRange>
+      </li>
+      
+      <li Class="StockGenerator_Category">
+        <categoryDef>FoodRaw</categoryDef>
+        <excludedCategories>
+          <li>EggsFertilized</li>
+        </excludedCategories>
+        <thingDefCountRange>7~10</thingDefCountRange>
+        <totalPriceRange>250~800</totalPriceRange>
+      </li>
+      
+      <li Class="StockGenerator_Category">
+        <categoryDef>Drugs</categoryDef>
+        <thingDefCountRange>3~3</thingDefCountRange>
+        <totalPriceRange>10~25</totalPriceRange>
+      </li>
+      
+      <!-- Buying -->
+      
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      
+    </stockGenerators>
+  </TraderKindDef>
+</Defs>
