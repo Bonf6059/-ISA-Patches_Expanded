@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>[ISA] Vanilla Expanded patched</name>
+    <name>[ISA] Patches Expanded</name>
 <description>This mod adds patches for the mods from vanilla expanded team</description>
     <author>Bonfa6059</author>
     <supportedVersions>
@@ -9,5 +9,5 @@
   <loadAfter>
 	<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
   </loadAfter>
-  <packageId>nicolo1213.ISA_Vanilla_Expanded_Patched</packageId>
+  <packageId>nicolo1213.ISA_Patches_Expanded</packageId>
 </ModMetaData>
