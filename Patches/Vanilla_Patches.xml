@@ -6,7 +6,7 @@
   <!-- Muffalo milk -->
   
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDefs_Races[defName="Muffalo"]/comps</xpath>
+    <xpath>/Defs/ThingDef[defName="Muffalo"]/comps</xpath>
     <value>
       <li Class="CompProperties_Milkable">
         <milkDef>Milk</milkDef>
@@ -21,7 +21,7 @@
   <!-- Reusable trap -->
   
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDefs_Buildings[defName="TrapSpike"]/building/trapDestroyOnSpring</xpath>
+    <xpath>/Defs/ThingDef[defName="TrapSpike"]/building/trapDestroyOnSpring</xpath>
     <value>
       <trapDestroyOnSpring>false</trapDestroyOnSpring>
     </value>
