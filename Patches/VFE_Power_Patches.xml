@@ -8,8 +8,9 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 
+		<!--========== HELIXIEN PATCHES ==========-->
 				
-<!-- Biomes with extra generation -->
+<!-- Biomes with extra geysers generation -->
 				
 	<li Class="PatchOperationReplace">
           <xpath>/Defs/VanillaPowerExpanded.SpecialPowerSpawnsDef[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
@@ -32,7 +33,7 @@
             </value>
         </li>
 
-<!-- Number to spawn -->
+<!-- Number of geysers to spawn -->
 				
         <li Class="PatchOperationReplace">
           <xpath>/Defs/VanillaPowerExpanded.SpecialPowerSpawnsDef[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
