@@ -8,10 +8,11 @@
 		<match Class="PatchOperationSequence">
 			<operations>
 
-<!--================================================================================================================-->
-			
+				
+<!-- Biomes with extra generation -->
+				
 	<li Class="PatchOperationReplace">
-          <xpath>/Defs/SpecialSpawnsDefs[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
+          <xpath>/Defs/VanillaPowerExpanded.SpecialPowerSpawnsDef[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
             <value>
 		<biomesWithExtraGeneration>
 			<li>Tundra</li>
@@ -21,26 +22,53 @@
 		</biomesWithExtraGeneration>
             </value>
         </li>
+				
+<!-- Number of extra geyser -->
+				
+	<li Class="PatchOperationAdd">
+          <xpath>/Defs/VanillaPowerExpanded.SpecialPowerSpawnsDef[defName="VPE_SpawnHelixienVents"]</xpath>
+            <value>
+		<extraGeneration>1</extraGeneration>
+            </value>
+        </li>
 
-<!--================================================================================================================-->
+<!-- Number to spawn -->
 				
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/SpecialSpawnsDefs[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
+          <xpath>/Defs/VanillaPowerExpanded.SpecialPowerSpawnsDef[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
             <value>
 		<numberToSpawn>2~3</numberToSpawn>
             </value>
         </li>
 
-<!--================================================================================================================-->
-				
-	<li Class="PatchOperationAdd">
-          <xpath>/Defs/SpecialSpawnsDefs[defName="VPE_SpawnHelixienVents"]</xpath>
+
+<!-- Increase in helixien pump extraction -->
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="VPE_HelixienPump"]/comps</xpath>
             <value>
-		<extraGeneration>1</extraGeneration>
+	      <comps>
+		<li Class="GasNetwork.CompProperties_GasTrader">
+				<compClass>GasNetwork.CompGasTrader</compClass>
+				<gasConsumption>-500</gasConsumption>
+			</li>
+			<li Class="CompProperties_Flickable">
+				<commandTexture>Things/Special/Fluid/VPE_OverlayBase</commandTexture>
+				<commandLabelKey>Fluffy.GasNetwork.CommandToggleGas.Label</commandLabelKey>
+				<commandDescKey>Fluffy.GasNetwork.CommandToggleGas.Desc</commandDescKey>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(90,140,90,0)</glowColor>
+			</li>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>GasNetwork.CompGasHeatPusher</compClass>
+				<heatPerSecond>6</heatPerSecond>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		    </comps>
             </value>
         </li>
-				
-<!--================================================================================================================-->
+
 				
       </operations>
     </match>
