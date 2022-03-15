@@ -5,14 +5,13 @@
 		<mods>
 			<li>Vanilla Furniture Expanded - Power</li>
 		</mods>
-
 		<match Class="PatchOperationSequence">
 			<operations>
 
 <!--================================================================================================================-->
 			
 	<li Class="PatchOperationReplace">
-          <xpath>Defs/SpecialSpawnsDefs[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
+          <xpath>/Defs/SpecialSpawnsDefs[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
             <value>
 		<biomesWithExtraGeneration>
 			<li>Tundra</li>
