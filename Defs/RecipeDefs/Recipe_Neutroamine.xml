@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <RecipeDef>
+    <defName>ISA_Make_NeutroamineFromChemfuel</defName>
+    <label>make neutroamine from chemfuel</label>
+    <description>Make a batch of neutroamine by refining chemfuel.</description>
+    <jobString>Refining neutroamine from chemfuel.</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Neutroamine>5</Neutroamine>
+    </products>
+  </RecipeDef>
+
+</Defs>
