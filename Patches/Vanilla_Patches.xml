@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+    <Operation Class="PatchOperationSequence">
+    <operations>
+  
 <!--========== ANIMALS ==========-->
 
   <!-- Muffalo milk -->
@@ -19,36 +22,47 @@
 <!--========== TRADERS ==========-->
   
   <!-- Add new caravan -->      <!-- Thank you Criz#2714 for the help with this patch -->
-  <Operation Class="PatchOperationAdd">
+  <li Class="PatchOperationAdd">
     <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
     <value>
     <li>ISA_Caravan_EssentialsSupplier</li>
     </value>
-  </Operation>
+  </li>
   
-  <Operation Class="PatchOperationAdd">
+  <li Class="PatchOperationAdd">
     <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
     <value>
     <li>ISA_Caravan_MineralsTrader</li>
     </value>
-  </Operation>
+  </li>
   
-  <Operation Class="PatchOperationAdd">
+  <li Class="PatchOperationAdd">
     <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
     <value>
     <li>ISA_Caravan_GrocerySupplier</li>
     </value>
-  </Operation>
+  </li>
   
-  <!--========== xxxxxxxx ==========-->
+  <!--========== CONSTRUCTION MATERIALS FIXES ==========-->
   
-  <!--  -->
+  <!-- Metal don't burn -->
   
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName=""]/</xpath>
+  <li Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Steel" or defName="Plasteel" or defName="Silver" or defName="Gold"]/stuffProps/statFactors/Flammability</xpath>
     <value>
-      
+          <Flammability>0.0</Flammability>
     </value>
-  </Operation>
+  </li>
+      
+  <!-- Power conduits burn slowly -->
   
+  <li Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="PowerSwitch"]/statBases/Flammability</xpath>
+    <value>
+          <Flammability>0.015</Flammability>
+    </value>
+  </li>
+      
+  </operations>
+</Operation>
 </Patch>
