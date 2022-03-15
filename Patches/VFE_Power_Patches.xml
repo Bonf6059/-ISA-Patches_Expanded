@@ -25,7 +25,7 @@
 <!--================================================================================================================-->
 				
         <li Class="PatchOperationReplace">
-          <xpath>Defs/SpecialSpawnsDefs[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
+          <xpath>/Defs/SpecialSpawnsDefs[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
             <value>
 		<numberToSpawn>2~3</numberToSpawn>
             </value>
@@ -34,7 +34,7 @@
 <!--================================================================================================================-->
 				
 	<li Class="PatchOperationAdd">
-          <xpath>Defs/SpecialSpawnsDefs[defName="VPE_SpawnHelixienVents"]</xpath>
+          <xpath>/Defs/SpecialSpawnsDefs[defName="VPE_SpawnHelixienVents"]</xpath>
             <value>
 		<extraGeneration>1</extraGeneration>
             </value>
