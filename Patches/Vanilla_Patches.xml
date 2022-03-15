@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<!--========== ITEMS ==========-->
+<!--========== ANIMALS ==========-->
 
   <!-- Muffalo milk -->
   
@@ -13,17 +13,6 @@
         <milkIntervalDays>3</milkIntervalDays>
         <milkAmount>32</milkAmount>
       </li>
-    </value>
-  </Operation>
-
-<!--========== BUILDINGS ==========-->
-  
-  <!-- Reusable trap -->
-  
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="TrapSpike"]/building/trapDestroyOnSpring</xpath>
-    <value>
-      <trapDestroyOnSpring>false</trapDestroyOnSpring>
     </value>
   </Operation>
 
@@ -48,6 +37,17 @@
     <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
     <value>
     <li>ISA_Caravan_GrocerySupplier</li>
+    </value>
+  </Operation>
+  
+  <!--========== xxxxxxxx ==========-->
+  
+  <!--  -->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName=""]/</xpath>
+    <value>
+      
     </value>
   </Operation>
   
