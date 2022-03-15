@@ -9,7 +9,7 @@
         
         
 	<li Class="PatchOperationAdd">
-         <xpath>/Defs/ThingDef[defName = "Megascarab" or defName = "ISA_Evoscarab"]</xpath>
+         <xpath>/Defs/ThingDef[defName = "Megascarab"]</xpath>
          <value>
            <butcherProducts>
              <VFEI_Chitin>1</VFEI_Chitin>
@@ -19,7 +19,7 @@
         
         
         <li Class="PatchOperationAdd">
-         <xpath>/Defs/ThingDef[defName = "Spelopede" or defName = "ISA_Evopede"]</xpath>
+         <xpath>/Defs/ThingDef[defName = "Spelopede"]</xpath>
          <value>
            <butcherProducts>
              <VFEI_Chitin>3</VFEI_Chitin>
@@ -29,14 +29,14 @@
         
         
 	<li Class="PatchOperationAdd">
-         <xpath>/Defs/ThingDef[defName = "Megaspider" or defName = "ISA_Evospider"]</xpath>
+         <xpath>/Defs/ThingDef[defName = "Megaspider"]</xpath>
          <value>
            <butcherProducts>
              <VFEI_Chitin>5</VFEI_Chitin>
            </butcherProducts>
          </value>		 
         </li>
-	  </operations>	  
+      </operations>	  
     </match>		  
   </Operation>
 </Patch>
