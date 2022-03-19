@@ -9,7 +9,7 @@
       <texPath>Things/Building/Misc/ToolCabinet</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,1)</drawSize>
-      <color>(96,114,95)</color>
+      <color>(211,237,231)</color>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -25,14 +25,14 @@
     <canOverlapZones>false</canOverlapZones>
     <pathCost>42</pathCost>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>1800</WorkToBuild>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToBuild>2800</WorkToBuild>
       <Mass>20</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
     <size>(2,1)</size>
     <costList>
-      <Steel>200</Steel>
+      <Plasteel>200</Plasteel>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Small</destroySound>
