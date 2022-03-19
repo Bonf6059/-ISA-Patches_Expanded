@@ -28,7 +28,7 @@
       <MaxHitPoints>400</MaxHitPoints>
       <WorkToBuild>2800</WorkToBuild>
       <Mass>20</Mass>
-      <Flammability>0.5</Flammability>
+      <Flammability>0.3</Flammability>
     </statBases>
     <size>(2,1)</size>
     <costList>
@@ -49,7 +49,7 @@
     <comps>
       <li Class="CompProperties_Facility">
         <statOffsets>
-          <WorkTableWorkSpeedFactor>1</WorkTableWorkSpeedFactor>
+          <WorkTableWorkSpeedFactor>0.3</WorkTableWorkSpeedFactor>
         </statOffsets>
         <maxSimultaneous>2</maxSimultaneous>
       </li>
