@@ -4,7 +4,7 @@
     <!-- Orbital -->
     
   <TraderKindDef>
-    <defName>ISA_Caravan_MineralsTrader</defName>
+    <defName>ISA_Orbital_MineralsTrader</defName>
     <label>minerals trader</label>
     <orbital>true</orbital>
     <stockGenerators>
