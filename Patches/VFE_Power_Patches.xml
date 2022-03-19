@@ -33,16 +33,6 @@
             </value>
         </li>
 
-<!-- Number of geysers to spawn -->
-				
-        <li Class="PatchOperationReplace">
-          <xpath>/Defs/VanillaPowerExpanded.SpecialPowerSpawnsDef[defName="VPE_SpawnHelixienVents"]/biomesWithExtraGeneration</xpath>
-            <value>
-		<numberToSpawn>2~3</numberToSpawn>
-            </value>
-        </li>
-
-
 <!-- Increase in helixien pump extraction -->
         <li Class="PatchOperationReplace">
           <xpath>/Defs/ThingDef[defName="VPE_HelixienPump"]/comps</xpath>
