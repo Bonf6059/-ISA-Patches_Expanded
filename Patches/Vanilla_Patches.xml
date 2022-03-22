@@ -60,13 +60,31 @@
     </value>
   </Operation>
   
-<!--========== WEAPONS ==========-->
+<!--========== ANIMALS ==========-->
 
-  <Operation Class="PatchOperationRemove">
-    <xpath>/Defs/ThingDef[defName="WoodLog"]/weaponClasses</xpath>
-  </Operation>
-  <Operation Class="PatchOperationRemove">
-    <xpath>/Defs/ThingDef[defName="WoodLog"]/tools</xpath>
+  <!-- Recipe Glittertech medicine -->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="MedicineUltratech"]</xpath>
+    <value>
+    <costList>
+      <MedicineIndustrial>1</MedicineIndustrial>
+      <Neutroamine>5</Neutroamine>
+      <Silver>30</Silver>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>MedicineProduction</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+        <Intellectual>6</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    </value>
   </Operation>
 
 </Patch>
