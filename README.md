@@ -14,3 +14,4 @@ Defs and patches added:
 - Cold biomes spawn more helixien geyser from VFE-Power and helixien pumps produces more
 - Muffalo now produce milk
 - Metal doesn't burn
+- Beer and wood log are no longer melee weapons
