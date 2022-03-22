@@ -59,5 +59,14 @@
           <Flammability>0.015</Flammability>
     </value>
   </Operation>
+  
+<!--========== WEAPONS ==========-->
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WoodLog"]/weaponClasses</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WoodLog"]/tools</xpath>
+  </Operation>
 
 </Patch>
