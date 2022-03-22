@@ -2,8 +2,8 @@
 <Defs>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>ISA_ToolCabinet</defName>
-    <label>ISA tool cabinet</label>
+    <defName>ISA_PowerToolCabinet</defName>
+    <label>power tool cabinet</label>
     <description>Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets.</description>
     <graphicData>
       <texPath>Things/Building/Misc/ToolCabinet</texPath>
@@ -32,7 +32,9 @@
     </statBases>
     <size>(2,1)</size>
     <costList>
-      <Plasteel>200</Plasteel>
+      <Plasteel>50</Plasteel>
+      <Steel>100</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <building>
       <destroySound>BuildingDestroyed_Metal_Small</destroySound>
