@@ -15,3 +15,4 @@ Defs and patches added:
 - Muffalo now produce milk
 - Metal doesn't burn
 - Wood log is no longer a melee weapon
+- Moveable ancient supply slingshot
