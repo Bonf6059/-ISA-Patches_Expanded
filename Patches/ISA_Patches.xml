@@ -4,7 +4,7 @@
     <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="CraftingSpot" or defName="ButcherSpot" or defName="TableSculpting" or defName="TableButcher" or defName="HandTailoringBench" or defName="ElectricTailoringBench" or defName="FueledSmithy" or defName="ElectricSmithy" or defName="TableMachining" or defName="TableStonecutter" or defName="DrugLab" or defName="FabricationBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
       <value>
-          <li>ISA_ToolCabinet</li>
+          <li>ISA_PowerToolCabinet</li>
       </value>
     </Operation>
 
