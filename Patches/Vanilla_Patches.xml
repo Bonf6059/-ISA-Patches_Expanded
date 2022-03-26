@@ -29,13 +29,6 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
     <value>
-    <li>ISA_Caravan_MineralsTrader</li>
-    </value>
-  </Operation>
-  
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/FactionDef[@Name="OutlanderFactionBase"]/caravanTraderKinds</xpath>
-    <value>
     <li>ISA_Caravan_GrocerySupplier</li>
     </value>
   </Operation>
