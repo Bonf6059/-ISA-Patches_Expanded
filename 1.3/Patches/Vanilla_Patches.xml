@@ -15,6 +15,31 @@
       </li>
     </value>
   </Operation>
+  
+  
+  <!-- Boomrat -->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="Boomrat"]</xpath>
+    <value>
+    <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Chemfuel</milkDef>
+        <milkIntervalDays>1</milkIntervalDays>
+        <milkAmount>3</milkAmount>
+        <milkFemaleOnly>false</milkFemaleOnly>
+      </li>
+    </comps>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="Boomrat"]/race/wildness</xpath>
+    <value>
+      <wildness>0.45</wildness>
+    </value>
+  </Operation>
+
 
 <!--========== TRADERS ==========-->
   
