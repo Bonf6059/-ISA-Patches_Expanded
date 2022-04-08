@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingBase">
     <defName>ISA_PowerToolCabinet</defName>
     <label>power tool cabinet</label>
-    <description>Increases work speed when placed near a workbench. One workbench can use up to two tool cabinets.</description>
+    <description>Increases work speed when placed near a workbench. One workbench can use up to two power tools cabinets.</description>
     <graphicData>
       <texPath>Things/Building/Misc/ToolCabinet</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
