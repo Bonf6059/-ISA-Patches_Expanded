@@ -5,7 +5,7 @@
 
   <!-- Muffalo milk -->
   
-  <Operation Class="PatchOperationAdd">
+  <nomatch Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="Muffalo"]/comps</xpath>
     <value>
       <li Class="CompProperties_Milkable">
@@ -14,12 +14,12 @@
         <milkAmount>32</milkAmount>
       </li>
     </value>
-  </Operation>
+  </nomatch>
   
   
   <!-- Boomrat -->
   
-  <Operation Class="PatchOperationAdd">
+  <nomatch Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName="Boomrat"]</xpath>
     <value>
     <comps>
@@ -31,14 +31,14 @@
       </li>
     </comps>
     </value>
-  </Operation>
+  </nomatch>
   
-  <Operation Class="PatchOperationReplace">
+  <nomatch Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Boomrat"]/race/wildness</xpath>
     <value>
       <wildness>0.45</wildness>
     </value>
-  </Operation>
+  </nomatch>
 
 
 <!--========== TRADERS ==========-->
@@ -62,20 +62,20 @@
   
   <!-- Metal don't burn -->
   
-  <Operation Class="PatchOperationReplace">
+  <nomatch Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="Steel" or defName="Plasteel" or defName="Silver" or defName="Gold"]/stuffProps/statFactors/Flammability</xpath>
     <value>
           <Flammability>0.0</Flammability>
     </value>
-  </Operation>
+  </nomatch>
       
   <!-- Power conduits burn slowly -->
   
-  <Operation Class="PatchOperationReplace">
+  <nomatch Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="PowerSwitch"]/statBases/Flammability</xpath>
     <value>
           <Flammability>0.015</Flammability>
     </value>
-  </Operation>
+  </nomatch>
   
 </Patch>
