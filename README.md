@@ -10,4 +10,4 @@ Defs and patches added:
 - Cold biomes spawn more helixien geyser from VFE-Power and helixien pumps produces more
 - Muffalo now produce milk
 - Metal doesn't burn
-- Added recipe for glitter tech medicines
+- Boomrat produce little amount of chemfuel and is easier to tame
