@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Outposts Expanded</li>
+    </mods>	
+	<match Class="PatchOperationSequence">
+      <operations>
+        
+        <!-- New drilling outposts -->
+        
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/WorldObjectDef[defName = "Outpost_Drilling"]/modExtensions/li[Class="Outposts.OutpostExtension"]/AllowedBiomes</xpath>
+          <value>
+            <li>IceSheet</li>
+            <li>SeaIce</li>
+          </value>		 
+        </li>
+        
+        
+        <Operation Class="PatchOperationFindMod">
+          <mods>
+            <li>Vanilla Chemfuel Expanded</li>
+          </mods>	
+          <match Class="PatchOperationSequence">
+            <operations>
+              
+              <!--========== ADD CHITIN TO INSECTOIDS DROPS ==========-->
+        
+	<li Class="PatchOperationReplace">
+         <xpath>/Defs/WorldObjectDef[defName = "Outpost_Drilling"]/modExtensions/ResultOptions</xpath>
+         <value>
+           <ResultOptions>
+             <li>
+               <BaseAmount>300</BaseAmount>
+               <Thing>VCHE_Deepchem</Thing>
+             </li>
+           </ResultOptions>
+         </value>		 
+        </li>
+        
+      </operations>	  
+    </match>		  
+  </Operation>
+        
+      </operations>	  
+    </match>		  
+  </Operation>
+</Patch>
