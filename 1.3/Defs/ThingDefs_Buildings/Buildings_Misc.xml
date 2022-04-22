@@ -70,7 +70,7 @@
       <texPath>Things/Building/Misc/ToolCabinet</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(2,1)</drawSize>
-      <color>(211,237,231)</color>
+      <color>(220,80,220)</color>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
