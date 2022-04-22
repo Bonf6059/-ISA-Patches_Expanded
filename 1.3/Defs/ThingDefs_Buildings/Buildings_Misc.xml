@@ -85,6 +85,7 @@
     <fillPercent>0.5</fillPercent>
     <canOverlapZones>false</canOverlapZones>
     <pathCost>42</pathCost>
+    <designatorDropdown>ToolCabinet</designatorDropdown>
     <statBases>
       <MaxHitPoints>10000</MaxHitPoints>
       <WorkToBuild>1</WorkToBuild>
