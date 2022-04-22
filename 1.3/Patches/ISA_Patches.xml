@@ -2,14 +2,14 @@
 <Patch>
   
     <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName="TableSculpting" or defName="TableButcher" or defName="HandTailoringBench" or defName="ElectricTailoringBench" or defName="FueledSmithy" or defName="ElectricSmithy" or defName="TableMachining" or defName="TableStonecutter" or defName="DrugLab" or defName="FabricationBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <xpath>/Defs/ThingDef[defName="BiofuelRefinery" or defName="TableSculpting" or defName="TableButcher" or defName="HandTailoringBench" or defName="ElectricTailoringBench" or defName="FueledSmithy" or defName="ElectricSmithy" or defName="TableMachining" or defName="TableStonecutter" or defName="DrugLab" or defName="FabricationBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
       <value>
           <li>ISA_PowerToolCabinet</li>
       </value>
     </Operation>
   
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[defName="CraftingSpot" or defName="ButcherSpot" or defName="TableSculpting" or defName="TableButcher" or defName="HandTailoringBench" or defName="ElectricTailoringBench" or defName="FueledSmithy" or defName="ElectricSmithy" or defName="TableMachining" or defName="TableStonecutter" or defName="DrugLab" or defName="FabricationBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+    <xpath>/Defs/ThingDef[defName="BiofuelRefinery" or defName="CraftingSpot" or defName="ButcherSpot" or defName="TableSculpting" or defName="TableButcher" or defName="HandTailoringBench" or defName="ElectricTailoringBench" or defName="FueledSmithy" or defName="ElectricSmithy" or defName="TableMachining" or defName="TableStonecutter" or defName="DrugLab" or defName="FabricationBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
       <value>
           <li>ISA_TestToolCabinet</li>
       </value>
@@ -17,7 +17,7 @@
   
 
 		<Operation Class="PatchOperationAdd">
-					<xpath>/Defs/ThingDef[defName="ISA_TestToolCabinet"][not(designatorDropdown)]</xpath>
+					<xpath>/Defs/ThingDef[defName="ISA_PowerToolCabinet"][not(designatorDropdown)]</xpath>
 					<value>
 						<designatorDropdown>ToolCabinet</designatorDropdown>
 					</value>
