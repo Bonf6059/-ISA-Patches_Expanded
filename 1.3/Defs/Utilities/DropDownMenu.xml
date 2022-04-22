@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<DesignatorDropdownGroupDef MayRequire="VanillaExpanded.VFEPower">
-		<defName>GasPipes</defName>
-	</DesignatorDropdownGroupDef>
-	
-	<DesignatorDropdownGroupDef MayRequire="VanillaExpanded.VChemfuelE">
-		<defName>ChemfuelPipes</defName> 
-	</DesignatorDropdownGroupDef>
-	
-	<DesignatorDropdownGroupDef MayRequire="VanillaExpanded.VChemfuelE">
-		<defName>DeepchemPipes</defName> 
+	<DesignatorDropdownGroupDef MayRequire="ISA_Archive">
+		<defName>ToolCabinet</defName>
 	</DesignatorDropdownGroupDef>
 </Defs>
