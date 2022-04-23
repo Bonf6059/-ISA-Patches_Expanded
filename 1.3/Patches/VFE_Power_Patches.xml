@@ -35,7 +35,7 @@
 
 <!-- Increase in helixien pump extraction -->
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/ThingDef[defName="VPE_HelixienPump"]/comps/li[Class=GasNetwork.CompProperties_GasTrader"]</xpath>
+          <xpath>/Defs/ThingDef[defName="VPE_HelixienPump"]/comps/li[@Class=GasNetwork.CompProperties_GasTrader"]</xpath>
             <value>
 		<li Class="GasNetwork.CompProperties_GasTrader">
 		  <compClass>GasNetwork.CompGasTrader</compClass>
