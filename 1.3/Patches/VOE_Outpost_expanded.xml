@@ -16,7 +16,18 @@
             <li>SeaIce</li>
           </value>		 
         </li>
-        
+	      
+      </operations>	  
+    </match>		  
+  </Operation>
+
+<!--========== VANILLA CHEMFUEL EXPANDED ==========-->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Outposts Expanded</li>
+    </mods>	
+	<match Class="PatchOperationSequence">
+      <operations>
         
         <Operation Class="PatchOperationFindMod">
           <mods>
@@ -24,8 +35,6 @@
           </mods>	
           <match Class="PatchOperationSequence">
             <operations>
-              
-              <!--========== ADD CHITIN TO INSECTOIDS DROPS ==========-->
         
 	<li Class="PatchOperationReplace">
          <xpath>/Defs/WorldObjectDef[defName="Outpost_Drilling"]/modExtensions/ResultOptions</xpath>
@@ -42,8 +51,9 @@
       </operations>	  
     </match>		  
   </Operation>
-        
+	      
       </operations>	  
     </match>		  
   </Operation>
+        
 </Patch>
