@@ -10,7 +10,7 @@
         <!-- New drilling outposts -->
         
         <li Class="PatchOperationAdd">
-          <xpath>/Defs/WorldObjectDef[defName = "Outpost_Drilling"]/modExtensions/li[Class="Outposts.OutpostExtension"]/AllowedBiomes</xpath>
+          <xpath>/Defs/WorldObjectDef[defName="Outpost_Drilling"]/modExtensions/li[Class="Outposts.OutpostExtension"]/AllowedBiomes</xpath>
           <value>
             <li>IceSheet</li>
             <li>SeaIce</li>
@@ -28,7 +28,7 @@
               <!--========== ADD CHITIN TO INSECTOIDS DROPS ==========-->
         
 	<li Class="PatchOperationReplace">
-         <xpath>/Defs/WorldObjectDef[defName = "Outpost_Drilling"]/modExtensions/ResultOptions</xpath>
+         <xpath>/Defs/WorldObjectDef[defName="Outpost_Drilling"]/modExtensions/ResultOptions</xpath>
          <value>
            <ResultOptions>
              <li>
