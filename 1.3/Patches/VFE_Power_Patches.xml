@@ -29,38 +29,21 @@
 	<li Class="PatchOperationAdd">
           <xpath>/Defs/VanillaPowerExpanded.SpecialPowerSpawnsDef[defName="VPE_SpawnHelixienVents"]</xpath>
             <value>
-		<extraGeneration>1</extraGeneration>
+		<extraGeneration>2</extraGeneration>
             </value>
         </li>
 
 <!-- Increase in helixien pump extraction -->
         <li Class="PatchOperationReplace">
-          <xpath>/Defs/ThingDef[defName="VPE_HelixienPump"]/comps</xpath>
+          <xpath>/Defs/ThingDef[defName="VPE_HelixienPump"]/comps/li[@Class=GasNetwork.CompProperties_GasTrader"]</xpath>
             <value>
-	      <comps>
 		<li Class="GasNetwork.CompProperties_GasTrader">
-				<compClass>GasNetwork.CompGasTrader</compClass>
-				<gasConsumption>-500</gasConsumption>
-			</li>
-			<li Class="CompProperties_Flickable">
-				<commandTexture>Things/Special/Fluid/VPE_OverlayBase</commandTexture>
-				<commandLabelKey>Fluffy.GasNetwork.CommandToggleGas.Label</commandLabelKey>
-				<commandDescKey>Fluffy.GasNetwork.CommandToggleGas.Desc</commandDescKey>
-			</li>
-			<li Class="CompProperties_Glower">
-				<glowRadius>6</glowRadius>
-				<glowColor>(90,140,90,0)</glowColor>
-			</li>
-			<li Class="CompProperties_HeatPusher">
-				<compClass>GasNetwork.CompGasHeatPusher</compClass>
-				<heatPerSecond>6</heatPerSecond>
-			</li>
-			<li Class="CompProperties_Breakdownable"/>
-		    </comps>
+		  <compClass>GasNetwork.CompGasTrader</compClass>
+		  <gasConsumption>-500</gasConsumption>
+		</li>
             </value>
         </li>
-
-				
+			
       </operations>
     </match>
   </Operation>
