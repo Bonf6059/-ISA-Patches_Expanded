@@ -3,7 +3,7 @@
 
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Vanilla Furniture Expanded - Power</li>
+			<li>VanillaExpanded.VFEPower</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
