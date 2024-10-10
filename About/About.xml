@@ -6,5 +6,8 @@
     <supportedVersions>
         <li>1.5</li>
     </supportedVersions>
+    <loadAfter>
+	    <li>dankpyon.medieval.overhaul</li>
+    </loadAfter>
   <packageId>Bonfa6059.ISAPatches</packageId>
 </ModMetaData>
