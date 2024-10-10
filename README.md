@@ -1,13 +1,13 @@
-# Patches_Expanded
+# ISA_Patches
 
-This is a mod dedicated to patching the vanilla game and the mods from Vanilla Expanded team for personal use. You are free to download and use it.
+This is a mod dedicated to patching the vanilla game and various mods for personal use. You are free to download and use it.
 
-Defs and patches added:
+Defs and patches added for the vanilla game:
 - Recipe for neutroamine from chemfuel
-- New tool cabinet (30% boost instead of 6% vanilla)
 - New traders x3 (Mineral orbital trader, grocery trader and basic stuff trader like foods and clothes)
-- Vanilla insectoids drop VFE-Insectoids chitin when butchered
-- Cold biomes spawn more helixien geyser from VFE-Power and helixien pumps produces more
 - Muffalo now produce milk
 - Metal doesn't burn
+- Conduits are less flammable but will still burn
 - Boomrat produce little amount of chemfuel and is easier to tame
+
+Defs and patches added for Medieval Overhaul:
