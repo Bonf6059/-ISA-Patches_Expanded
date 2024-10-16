@@ -11,7 +11,7 @@
       <li Class="CompProperties_Milkable">
         <milkDef>Milk</milkDef>
         <milkIntervalDays>3</milkIntervalDays>
-        <milkAmount>32</milkAmount>
+        <milkAmount>24</milkAmount>
       </li>
     </value>
   </Operation>
