@@ -69,20 +69,6 @@
   
   <!-- Metal don't burn -->
   
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="Steel" or defName="Plasteel" or defName="Silver" or defName="Gold"]/stuffProps/statFactors/Flammability</xpath>
-    <value>
-          <Flammability>0.0</Flammability>
-    </value>
-  </Operation>
-      
-  <!-- Power conduits burn slowly -->
-  
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName="PowerConduit" or defName="PowerSwitch"]/statBases/Flammability</xpath>
-    <value>
-          <Flammability>0.015</Flammability>
-    </value>
-  </Operation>
+
   
 </Patch>
