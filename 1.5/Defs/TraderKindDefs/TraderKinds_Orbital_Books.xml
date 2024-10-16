@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <TraderKindDef>
-        <!--SOM = Specialized Orbital Merchants, which I'm not expecting to use again, but wanted to be safe-->
-        <defName>SOM_Orbital_BookMerchant</defName>
+        <defName>Orbital_BookMerchant</defName>
         <label>book merchant</label>
         <orbital>true</orbital>
         <commonality>0.25</commonality>
