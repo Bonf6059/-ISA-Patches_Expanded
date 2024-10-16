@@ -68,10 +68,6 @@
         <categoryDef>Drugs</categoryDef>
       </li>
       
-      <li Class="StockGenerator_Clothes">
-        <countRange>10~10</countRange>
-      </li>
-      
       <!-- Buying -->
       
       <li Class="StockGenerator_BuyExpensiveSimple" />
@@ -147,10 +143,6 @@
       
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
-      </li>
-      
-      <li Class="StockGenerator_Clothes">
-        <countRange>10~10</countRange>
       </li>
       
       <!-- Buying -->
