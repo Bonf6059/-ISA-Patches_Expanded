@@ -8,3 +8,6 @@ Defs and patches added for the vanilla game:
 - Metal doesn't burn
 - Boomrat produce little amount of chemfuel and is easier to tame
 - Smoothed stone is now worthless
+
+Defs and patches added for the DLCs:
+- (Biotech) Now cat ears match the colour of the hairs
