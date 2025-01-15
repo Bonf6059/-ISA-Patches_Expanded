@@ -11,3 +11,5 @@ Defs and patches added for the vanilla game:
 
 Defs and patches added for the DLCs:
 - (Biotech) Now cat ears match the colour of the hairs
+- (Ideology) Added new dryad type - from "Goji's Fantasy Race: Merren"
+  
