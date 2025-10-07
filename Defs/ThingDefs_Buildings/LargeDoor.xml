@@ -10,7 +10,7 @@
       <MaxHitPoints>250</MaxHitPoints>
     </statBases>
     <graphicData>
-      <texPath>Things/Building/OgGate2x1_Mover</texPath>
+      <texPath>Things/Building/Door/OgGate2x1_Mover</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <damageData>
         <enabled>false</enabled>
