@@ -1,1 +1,51 @@
-
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="DoorBase">
+    <defName>OgGate</defName>
+    <label>gate</label>
+    <description>Divides rooms. A big door, simple but useful. This large, heavy door requires adjacent walls to function.</description>
+    <thingClass>Building_MultiTileDoor</thingClass>
+    <statBases>
+      <WorkToBuild>2000</WorkToBuild>
+      <MaxHitPoints>250</MaxHitPoints>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Building/OgGate2x1_Mover</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <enabled>false</enabled>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/OgGate_MenuIcon_south</uiIconPath>
+    <useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+    <size>(2, 1)</size>
+    <rotatable>true</rotatable>
+    <costStuffCount>75</costStuffCount>
+    <building>
+      <blueprintClass>Blueprint_Build</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Things/Building/OgGate_MenuIcon</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>EdgeDetect</shaderType>
+        <drawSize>(2.6, 3.1)</drawSize>
+      </blueprintGraphicData>
+      <doorTopGraphic>
+        <texPath>Things/Building/OgGate2x1_Top</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3.1, 2.3)</drawSize>
+      </doorTopGraphic>
+      <doorSupportGraphic>
+        <texPath>Things/Building/OgGate2x1_Support</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(3.1, 2.3)</drawSize>
+      </doorSupportGraphic>
+    </building>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+    <designationHotKey>Misc3</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_MultiCellDoor</li>
+    </placeWorkers>
+  </ThingDef>
+</Defs>
