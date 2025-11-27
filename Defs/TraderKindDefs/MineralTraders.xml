@@ -177,11 +177,6 @@
         <thingDef>InsectMeat</thingDef>
         <countRange>-30~171</countRange>
       </li>
-      
-      <li MayRequire="ISA.Medieval" Class="StockGenerator_SingleDef">
-        <thingDef>ISA_Criopyrinth</thingDef>
-        <countRange>-10~95</countRange>
-      </li>
 
       <li MayRequire="det.epochspyrinth" Class="StockGenerator_SingleDef">
         <thingDef>DV_Pyrinth</thingDef>
@@ -192,15 +187,10 @@
         <thingDef>DV_Clay</thingDef>
         <countRange>-10~95</countRange>
       </li>
-      
-      <li MayRequire="ISA.sbdelights" Class="StockGenerator_SingleDef">
-        <thingDef>ISA_MinersDelight</thingDef>
-        <countRange>-5~35</countRange>
-      </li>
-      
-      <li MayRequire="ISA.sbdelights" Class="StockGenerator_SingleDef">
-        <thingDef>ISA_Glimmerquartz</thingDef>
-        <countRange>-5~35</countRange>
+
+      <li MayRequire="det.epochsgolems" Class="StockGenerator_SingleDef">
+        <thingDef>DV_Clay</thingDef>
+        <countRange>-10~95</countRange>
       </li>
 
       <!-- Buying -->
