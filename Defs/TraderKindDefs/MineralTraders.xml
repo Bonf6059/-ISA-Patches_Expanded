@@ -92,16 +92,6 @@
         <thingDef>DV_Clay</thingDef>
         <countRange>-10~84</countRange>
       </li>
-      
-      <li MayRequire="ISA.sbdelights" Class="StockGenerator_SingleDef">
-        <thingDef>ISA_MinersDelight</thingDef>
-        <countRange>-5~15</countRange>
-      </li>
-      
-      <li MayRequire="ISA.sbdelights" Class="StockGenerator_SingleDef">
-        <thingDef>ISA_Glimmerquartz</thingDef>
-        <countRange>-5~15</countRange>
-      </li>
 
       <!-- Buying -->
       
