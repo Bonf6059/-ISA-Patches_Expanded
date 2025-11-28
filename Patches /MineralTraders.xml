@@ -21,6 +21,13 @@
         </value>
       </li>
 
+     <li Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[@Name="OutlanderRoughBase"]/caravanTraderKinds</xpath>
+        <value>
+          <li>ISA_Caravan_Minerals</li>
+        </value>
+     </li>
+
   </operations>
 </Operation>
 
